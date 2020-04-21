@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+    <meta charset="utf-8">
+
+    <!-- 사이트 메타 태그 -->
+    <meta name="description"
+        content="Watch Netflix movies & TV shows online or stream right to your smart TV, game console, PC, Mac, mobile, tablet and more.">
+    <meta name="keywords" content="Movie,TV,Shows,Online">
+    <meta name="author" content="Netflix">
+
+    <!-- 뷰포트 세팅 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <!--  css 링크 -->
+    <link rel="stylesheet" type="text/css" href="css/destyle.css"> <!-- 초기화 CSS-->
+
+    <link rel="stylesheet" type="text/css" href="css/login.css"> <!-- Home 화면 CSS-->
+
+    <!-- 구글 Noto Sans KR 웹폰트 링크 -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="login">
+        <div class="login_wrap">
+            <div class="login_container">
+                <form action="login.php" class="login_form">
+                    <h1 class="login_title">로그인</h1>
+                    <input type="text" id="user_text" name="user-text" placeholder="이메일 주소 또는 전화번호">
+                    <input type="password" id="user_password" name="user_password" placeholder="비밀번호">
+                    <button type="submit" id="login_submit">로그인</button>
+                    
+                    <input type="checkbox" id="user_check" name="user_check" class="user_checkbox">
+                    <label class="label_checkbox_save" for="user_check">로그인 정보 저장</label>
+                    <a class="login_help" href="https://www.netflix.com/kr/LoginHelp">도움이 필요하신가요?</a>
+                </form>
+                <div class="login_info">
+                    <a href="" class="login_facebooklink">
+                        <img src="img/icon_facebook.png"><p>Facebook으로 로그인</p>
+                    </a>
+                    <p>Netflix 회원이 아닌가요?</p> <a class="login_joinlink" href="https://www.netflix.com/kr/">지금 가입하세요.</a>
+                    <p>이 페이지는 Google reCAPTCHA의 보호를 받아 사용자가 로봇이 아님을 확인합니다. <a class="login_detaillink" href="https://www.netflix.com/kr/">자세히 알아보기</a></p>
+                </div>    
+            </div>
+        </div>
+    </section>
+</body>
+</html>
