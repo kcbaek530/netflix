@@ -1,0 +1,75 @@
+@font-face { 
+   font-family: Netflix_Sans_Rg; /* Netflix Sans 폰트 */
+    src: url(../font/Netflix_Sans_Rg.woff2) }
+   
+@font-face {
+    font-family: Netflix_Sans_Lt; /* Huge San-serif 폰트 */
+           src: url(../font/NetflixSans_W_Lt.woff2) }
+
+body {color:white; background-color: gray;}
+
+/* 텍스트 위계 */
+
+h1 {font-family: Netflix_Sans_Rg, Arial, Helvetica, sans-serif; font-size: 64px; font-weight:700; line-height: normal; }
+.h1_sans { font-size: 50px;}
+
+h2 {font-family: Netflix_Sans_Rg, Arial, Helvetica, sans-serif; font-size: 26px; font-weight:400; line-height: normal; }
+h3 {font-family: Netflix_Sans_Rg, Arial, Helvetica, sans-serif; font-size: 24px; font-weight:100; line-height: normal; }
+h4 {font-family: Netflix_Sans_Rg, Arial, Helvetica, sans-serif; font-size: 22px; font-weight:100; line-height: 1.6; }
+h5 {font-family: Netflix_Sans_Rg, Arial, Helvetica, sans-serif; font-size: 18px; font-weight:100; line-height: normal; }
+h6 {font-family: Netflix_Sans_Rg, Arial, Helvetica, sans-serif; font-size: 16px; font-weight:100; line-height: normal; }
+
+ p { font-family: Netflix_Sans_Rg, Arial, Helvetica, sans-serif; font-size: 13px; font-weight:400; line-height: normal; }
+
+
+
+.login {width:100%; height:90vh; 
+    background-image: url(../img/bg_small.jpg); background-size: cover; background-position: center; box-sizing: border-box;  }
+
+.login_wrap {width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%); box-sizing: border-box; padding-top: 90px; }
+
+.login_container { width: 450px; min-height: 660px; padding: 60px 68px 40px; border-radius: 6px;
+    margin:0 auto;   box-sizing: border-box; display: flex; flex-direction: column; background-color: rgba(0,0,0,0.7);}
+
+.login_form { box-sizing: border-box; margin-bottom: 60px; }
+.login_title { font-size: 32px; margin-bottom: 20px; }
+
+#user_text { width: 100%; height: 30px; background-color: #333;
+height: 50px; line-height: 50px; padding: 0px 20px; margin-bottom: 20px; border-radius: 4px; }
+
+#user_password { width: 100%; height: 30px; background-color: #333;
+height: 50px; line-height: 50px; padding: 0px 20px;
+margin-bottom: 40px; border-radius: 4px}
+
+#login_submit { width: 100%; height: 30px; background-color: #e50914; text-align: center;
+height: 50px; line-height: 50px; padding: 0px 20px;
+margin-bottom: 10px; border-radius: 4px;}
+
+#user_check { width:5%; vertical-align: baseline;  }
+
+#user_check:checked { background-color: #838383; }
+
+.user_checkbox {width: 5%; vertical-align: baseline; font-size: 18px; color:#838383; background-color: #838383; }
+
+.label_checkbox_save {width: 40%; font-size: 13px; display: inline-block; color:#838383;}
+.login_help {width: 50%; text-align: right; color:#838383; font-size: 13px; display: inline-block; }
+
+.login_info img {width: 24px; height: 24px; vertical-align: middle; display: inline-block; margin-right: 10px;}
+.login_info p {color:#838383; line-height: 20px; font-size: 13px;}
+.login_info p:nth-child(2) { margin: 10px 0; font-size: 16px; display: inline-block; }
+.login_joinlink { color:white;}
+.login_detaillink { color:#0071eb; }
+
+@media screen and (max-width: 738px) 
+ {
+    .login {width:100%; height:90vh; 
+        background-image: url();   }
+    
+    .login_wrap {width: 100%; height: 100%; background-color: black;); box-sizing: border-box; padding: 90px 5%; }
+    
+    .login_container { width: 100%; min-height: 550px; padding: 20px 0px 40px; border-radius: 6px;
+        margin:0 auto;   box-sizing: border-box; display: flex; flex-direction: column; background-color: rgba(0,0,0,0.7);}
+     
+    .login_facebooklink {display: block;}
+    .login_detaillink {display: block;}    
+ } 
