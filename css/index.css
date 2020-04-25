@@ -263,6 +263,7 @@ margin-bottom: 20px;}
     .feature2_ul {  flex-direction: column-reverse; }
     .feature2_ul li:first-child {width: 100%;}
     .feature2_ul li:last-child {width: 100%; }
+    .feature2_video_container {  width: 60%; height: 20%; top:70%; left: 20%  }
  
     .feature3_ul {  flex-direction: column; }
     .feature3_ul li:first-child {width: 100%;}
