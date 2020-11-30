@@ -415,7 +415,7 @@ body { font-size: 14px;}
 
 .faq_wrap { width: calc(100% - 60px);  }
 .faq_title { font-size: 36px; line-height: 48px; }
-.faq_list_title { font-size: 14px; line-height: 20px; padding: 0 20px;}
+.faq_list_title { font-size: 18px; line-height: 24px; padding: 0 20px;}
 
 /* .faq_list { width: 100%; max-height: 60px; margin: 0 0 20px; overflow: hidden; transition: max-height 0.4s; } */
 
@@ -439,8 +439,8 @@ footer { width: 100%; padding: 40px 30px;}
 .footer_menu ul li a {font-size: 12px;}
 .contact { font-size: 12px;}
 .company_info {font-size: 12px; display: block;  }
-.company_info span {display: block; line-height: 24px;}
-
+.company_info span {display: block; line-height: 24px; font-size: 12px;}
+.site_info {font-size: 12px;}
 .input_email {border-radius: 4px; margin: 0 0 10px; }
 .bt_join { border-radius: 4px; }
 
